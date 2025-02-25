@@ -1,0 +1,62 @@
+# ignore tudo
+*
+# exclua os subdiretórios
+!/**/
+# exclua os arquivos com extensão
+!*.*
+
+# Arquivos de compilação
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# Diretórios de compilação
+/CMakeFiles
+/CMakeCache.txt
+/Makefile
+/CMakeScripts
+/build/
+/bin/
+/lib/
+/log/
+/tmp/
+/Debug/
+/Release/
+
+# Arquivos gerados pelo CMake
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+CMakeFiles/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.pid
+*.seed
+*.old
+*.bak
+*.swp
+*.swo
+*.swn
+*.db
+
+# Outros
+*.DS_Store
+*.directory
+*.cache
